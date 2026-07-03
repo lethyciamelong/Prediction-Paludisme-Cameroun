@@ -73,7 +73,7 @@ Le stacking apporte un gain marginal mais systématique sur toutes les cibles ; 
 ├── Challenge_Paludisme.ipynb   # Notebook principal (pipeline complet)
 ├── Data_Palu.xlsx                 # Jeu de données brut
 ├── Dictionnaire_Palu.docx         # Dictionnaire des variables
-├── Challenge_Palu_v1.docx # Énoncé du challenge
+├── Challenge_Paludisme.docx # Énoncé du challenge
 └── README.md
 ```
 
