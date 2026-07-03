@@ -1,12 +1,8 @@
-# Prediction-Paludisme-Cameroun
-Prédiction des cas graves et simples de paludisme au Cameroun (198 districts, 2021–2024) à partir de données climatiques, démographiques et d'interventions de santé publique — pipeline ML complet (Random Forest, HistGB, Stacking, multi-cible) avec quantification d'incertitude. 
-
-
 # 🦟 Prédiction des cas de Paludisme au Cameroun
 
 Pipeline de Machine Learning pour la prédiction des cas **graves** et **simples** de paludisme au Cameroun, par population (femmes enceintes, enfants de moins de 5 ans, population générale), à partir de données climatiques, démographiques et d'interventions de santé publique.
 
-> Projet réalisé dans le cadre du cours **INF4248** — Master 1 Informatique, spécialité Data Science — Université de Yaoundé I.
+
 
 ---
 
@@ -74,10 +70,10 @@ Le stacking apporte un gain marginal mais systématique sur toutes les cibles ; 
 
 ```
 .
-├── Challenge_Palu_INF4248.ipynb   # Notebook principal (pipeline complet)
+├── Challenge_Paludisme.ipynb   # Notebook principal (pipeline complet)
 ├── Data_Palu.xlsx                 # Jeu de données brut
 ├── Dictionnaire_Palu.docx         # Dictionnaire des variables
-├── Challenge_Palu_INF4248_v1.docx # Énoncé du challenge
+├── Challenge_Palu_v1.docx # Énoncé du challenge
 └── README.md
 ```
 
@@ -94,8 +90,8 @@ Le stacking apporte un gain marginal mais systématique sur toutes les cibles ; 
 ## ▶️ Reproduire les résultats
 
 ```bash
-git clone https://github.com/<ton-utilisateur>/malaria-cameroon-forecasting.git
-cd malaria-cameroon-forecasting
+git clone https://github.com/lethyciamelong/Prediction-Paludisme-Cameroun.git
+cd Prediction-Paludisme-Cameroun
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
-jupyter notebook Challenge_Palu_INF4248.ipynb
+jupyter notebook Challenge_Paludisme.ipynb
 ```
